@@ -7,7 +7,7 @@
 !     **********************************************
 !     triangulation/Hamiltonian input data
 !     **********************************************
-      include 'Torus3.f90'
+      include 'Torus1.f90'
       
 !     **********************************************
 !     check the vertex part
