@@ -8,7 +8,7 @@ The `EToricCode.f90` file computes the full eigenvalues of the Hamiltonian.
 
 The `PToricCode.f90` file computes lowest `p=5` eigenvalues of the Hamiltonian. This code is paralellized with OpenMP directives.
 
-The `FToricCode.f90` file computes lowest `p=5` eigenvalues of the Hamiltonian. The difference between `PToricCode.f90` and `FToricCode.f90` is that the `FToricCode.f90` does not allocate the large `gpsi`s, making  the tasks inside the loop over $\Gamma$ explicitly independent.
+The `FToricCode.f90` file computes lowest `p=5` eigenvalues of the Hamiltonian. The difference between `PToricCode.f90` and `FToricCode.f90` is that the `FToricCode.f90` does not allocate the large `gpsi`s, making  the tasks inside the loop over Γ explicitly independent.
 
 In the `Sample Inputs` folder contains input files listed in the paper. The Tetrahedron, Octahedron and Icosahedron are triangulation data for the sphere. The Torus1 is the minimal triangulation for a genus 1 torus and Torus2 is a conventional triangulation for the torus. The DoubleTorus is the minimal triangulation of the genus 2 torus or a double-holed torus.
 
