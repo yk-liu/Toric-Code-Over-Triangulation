@@ -1,6 +1,6 @@
 # Fortran Code for Toric Code over Triangulations
 
-This repository is for the Fortran Code for computing the lowest eigenvalues and eigenvectors over triangulations. This is the appendix for [A Computer Code for Topological Quantum Spin Systems over Triangulated Surfaces](https://arxiv.org/abs/1912.12964). 
+This repository is for Fortran codes mapping spectral and dynamical properties of quantum spin systems over triangulated surfaces. It computes the lowest (and optionally, all) eigenvalues and eigenvectors over triangulations. This is the appendix for [A Computer Code for Topological Quantum Spin Systems over Triangulated Surfaces](https://arxiv.org/abs/1912.12964). 
 
 # Contents
 
