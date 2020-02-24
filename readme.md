@@ -12,6 +12,8 @@ The `FToricCode.f90` file computes lowest `p=5` eigenvalues of the Hamiltonian. 
 
 In the `Sample Inputs` folder contains input files listed in the paper. The Tetrahedron, Octahedron and Icosahedron are triangulation data for the sphere. The Torus1 is the minimal triangulation for a genus 1 torus and Torus2 is a conventional triangulation for the torus. The DoubleTorus is the minimal triangulation of the genus 2 torus or a double-holed torus.
 
+The `InputCheck` is for checking your version of triangulation data. It does not compute the genus of your data, but checks if each edge has only exactly vertices and only two neighboring triangles, and if each triangle has exactly three egdes. Note that if you modify the code for other calculations orther than triangulation this file might not apply.
+
 # How to run the code
 
 To run the code, install Intel Fortran from the [official website](https://software.intel.com/en-us/fortran-compilers). After [setting up the correct environment](https://software.intel.com/en-us/articles/setting-up-the-build-environment-for-using-intel-c-or-fortran-compilers), you can run with the following command:
